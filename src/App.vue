@@ -52,7 +52,7 @@ const toMcsdg = () => {
 }
 
 #select-list {
-  width: 500px;
+  width: 80vw;
   max-width: 500px;
   max-height: fit-content;
 }
@@ -60,7 +60,7 @@ const toMcsdg = () => {
 #title {
   text-align: center;
   line-height: 50px;
-  height: 50px;
+  height: fit-content;
 }
 
 .item-button {
