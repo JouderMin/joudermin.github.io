@@ -19,6 +19,7 @@
         <div slot="headline">现代计算机软件开发指北</div>
         <div slot="supporting-text">Modern Computer Software Development Guide</div>
       </md-list-item>
+      <md-divider />
       <md-list-item type="button" @click="toJdn" class="item-button">
         <div slot="headline">我的开发笔记</div>
         <div slot="supporting-text">Jouder's Development Notebook</div>
