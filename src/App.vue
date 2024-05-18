@@ -19,6 +19,10 @@
         <div slot="headline">现代计算机软件开发指北</div>
         <div slot="supporting-text">Modern Computer Software Development Guide</div>
       </md-list-item>
+      <md-list-item type="button" @click="toJdn" class="item-button">
+        <div slot="headline">我的开发笔记</div>
+        <div slot="supporting-text">Jouder's Development Notebook</div>
+      </md-list-item>
     </md-list>
   </div>
 </template>
@@ -38,6 +42,10 @@ const toNacsp = () => {
 
 const toMcsdg = () => {
   window.location.href = 'https://joudermin.github.io/mcsdg/';
+};
+
+const toJdn = () => {
+  window.location.href = 'https://joudermin.github.io/jdn/';
 };
 </script>
 
