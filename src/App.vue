@@ -58,6 +58,7 @@ const toJdn = () => {
   padding-top: 0px;
   background-color: var(--md-list-container-color, var(--md-sys-color-surface, #fef7ff));
   border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 #select-list {
